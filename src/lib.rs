@@ -4,14 +4,14 @@ use std::task::{Context, Poll};
 
 use bytes::Bytes;
 use fnv::{FnvHashMap, FnvHashSet};
+use libp2p::core::transport::PortUse;
+use libp2p::core::Endpoint;
 use libp2p::swarm::derive_prelude::FromSwarm;
 use libp2p::swarm::{
     ConnectionDenied, ConnectionHandler, ConnectionId, NetworkBehaviour, NotifyHandler, THandler,
     ToSwarm,
 };
 use libp2p::{Multiaddr, PeerId};
-use libp2p_core::transport::PortUse;
-use libp2p_core::Endpoint;
 use prometheus_client::registry::Registry;
 
 mod codec;

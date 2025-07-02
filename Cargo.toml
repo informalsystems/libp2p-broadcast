@@ -18,7 +18,6 @@ bytes = "1"
 fnv = "1"
 futures = "0.3"
 libp2p = "0.55"
-libp2p-core = { version = "0.43.1" }
 unsigned-varint = "0.8"
 prometheus-client = "0.22"
 tracing = "0.1"

@@ -604,7 +604,6 @@ dependencies = [
  "fnv",
  "futures",
  "libp2p",
- "libp2p-core",
  "prometheus-client",
  "tracing",
  "unsigned-varint 0.8.0",

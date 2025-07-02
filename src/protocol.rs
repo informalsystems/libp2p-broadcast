@@ -1,8 +1,8 @@
 use std::convert::Infallible;
 
 use futures::future::{ready, Ready};
+use libp2p::core::{InboundUpgrade, OutboundUpgrade, UpgradeInfo};
 use libp2p::swarm::Stream;
-use libp2p_core::{InboundUpgrade, OutboundUpgrade, UpgradeInfo};
 
 const PROTOCOL_INFO: &str = "/ax/broadcast/1.0.0";
 
