@@ -1,0 +1,24 @@
+[package]
+name = "libp2p-broadcast"
+version = "0.1.0"
+authors = [
+    "David Craven <david@craven.ch>",
+    "Actyx AG",
+    "Romain Ruetschi <github@romac.me>",
+    "Bastien Faivre <contact@bastienfaivre.com",
+]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+description = "broadcast messages to connected peers"
+repository = "https://github.com/informalsystems/libp2p-broadcast"
+
+[dependencies]
+asynchronous-codec = { version = "0.7.0" }
+bytes = "1"
+fnv = "1"
+futures = "0.3"
+libp2p = "0.55"
+libp2p-core = { version = "0.43.1" }
+unsigned-varint = "0.8"
+prometheus-client = "0.22"
+tracing = "0.1"
